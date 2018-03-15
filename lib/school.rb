@@ -15,8 +15,7 @@ class School
      @roster[grade] << student 
     else  
     @roster.keys.find do |grade|
-      existing_grade << grade
-    @roster[existing_grade] << student
+    
  end
 end
 end
