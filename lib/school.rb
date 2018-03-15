@@ -15,8 +15,7 @@ class School
      @roster[grade] << student 
   
     
- end
-end
+ 
 end
 end
   
