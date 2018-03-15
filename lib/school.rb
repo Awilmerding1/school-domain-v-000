@@ -14,7 +14,7 @@ class School
      @roster[grade] << student 
     else 
     @roster.keys.detect do |same|
-      same = grade
+      same == grade
     end
     @roster[same] << student
   end    
