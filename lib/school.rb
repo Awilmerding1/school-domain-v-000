@@ -14,8 +14,9 @@ class School
   end
   
   def grade(grade)
-   list = @roaster[grade]
-   list
+   @roster[grade]
+   
+   
   end
 
   
