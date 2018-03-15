@@ -11,7 +11,7 @@ class School
   def add_student(student, grade)
    @roster[grade] = []
    array = @roster.keys
-   string = array.to_s 
+   string = array.to_a
    
   if @roster.keys.include?(grade) == false
      @roster[grade] << student 
