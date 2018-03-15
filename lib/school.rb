@@ -15,8 +15,9 @@ class School
    existing_grade = string.to_i
   if @roster.keys.include?(grade) == false
      @roster[grade] << student 
-    elsif @roster.keys.include?(grade) == true 
-    @roster[existing_grade] << student
+    else 
+    @roster[grade].detect do |same|
+      same 
  end
 end
   
