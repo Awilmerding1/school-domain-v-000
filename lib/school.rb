@@ -13,7 +13,7 @@ class School
   if @roster.keys.include?(grade) == false
      @roster[grade] << student 
     elsif @roster.keys.include?(grade) == true 
-    @roster[] << student
+    @roster[student.grade] << student
  end
 end
   
