@@ -13,11 +13,10 @@ class School
    array = @roster.keys
    string = array.join
    existing_grade = string.to_i
-   
   if @roster.keys.include?(grade) == false
      @roster[grade] << student 
     elsif @roster.keys.include?(grade) == true 
-    @roster[existing_grade] << student
+    @roster[string] << student
  end
 end
   
