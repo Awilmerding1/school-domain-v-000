@@ -13,8 +13,7 @@ class School
    @roster[grade] = []
   if @roster.keys.include?(grade) == false
      @roster[grade] << student 
-    else  
-    @roster.keys.find do |grade|
+  
     
  end
 end
