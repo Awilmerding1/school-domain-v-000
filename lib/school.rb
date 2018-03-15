@@ -21,5 +21,6 @@ class School
     @roster[grade].sort do |a, b|
       a<=>b
     end
+    @roster
   end
 end
