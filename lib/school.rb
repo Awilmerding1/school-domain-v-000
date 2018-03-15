@@ -17,7 +17,7 @@ class School
       same = grade
     end
     @roster[same] << student
-      
+  end    
  end
 end
   
