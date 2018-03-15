@@ -18,6 +18,6 @@ class School
   end
   
   def sort
-    @roster
+    @roster[]
   end
 end
