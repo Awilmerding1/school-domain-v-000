@@ -18,5 +18,6 @@ class School
     @roster[existing_grade] << student
  end
 end
+end
   
 end
