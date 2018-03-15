@@ -13,7 +13,8 @@ class School
   if @roster.keys.include?(grade) == false
      @roster[grade] << student 
     elsif @roster.keys.include?(grade) == true 
-    @roster.find
+    @roster.find do |grade|
+      existing_grade = grade
     @roster[existing_grade] << student
  end
 end
