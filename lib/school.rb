@@ -14,7 +14,7 @@ class School
   end
   
   def grade(grade)
-   return @roaster
+   @roaster[grade]
   end
 
   
