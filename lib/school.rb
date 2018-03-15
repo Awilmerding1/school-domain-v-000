@@ -9,14 +9,13 @@ class School
   end
   
   def add_student(student, grade)
-    same = nil
+  
    @roster[grade] = []
   if @roster.keys.include?(grade) == false
      @roster[grade] << student 
     else 
     @roster.keys.detect do |same|
-      same == grade
-    end
+      if same == grade
     @roster[same] << student
   end    
  end
