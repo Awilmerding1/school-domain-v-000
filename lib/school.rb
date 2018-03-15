@@ -10,12 +10,7 @@ class School
   
   def add_student(student, grade)
    @roster[grade] = []
-  if @roster.keys.include?(grade) == false
-     @roster[grade] << student 
-    else 
-   same_grade = @roster.keys.select do |same|
-      same == grade
-    end
+  
     @roster[same_grade] << student
 end
 end
