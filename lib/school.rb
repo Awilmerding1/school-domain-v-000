@@ -19,6 +19,6 @@ class School
     @roster[same] << student
   end    
  end
-
+end
   
 end
