@@ -13,7 +13,7 @@ class School
   if @roster.keys.include?(grade) == false
      @roster[grade] << student 
     else 
-    @roster.keys.detect do |same_grade|
+   same_grade = @roster.keys.detect do |same_grade|
       same_grade == grade
     end
     @roster[same_grade] << student
