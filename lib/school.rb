@@ -20,5 +20,6 @@ class School
   def sort
     @roster[grade].sort do |a, b|
       a<=>b
+    end
   
 end
