@@ -15,6 +15,6 @@ class School
     elsif @roster.keys.include?(grade) == true 
     @roster[] << student
  end
-
+end
   
 end
